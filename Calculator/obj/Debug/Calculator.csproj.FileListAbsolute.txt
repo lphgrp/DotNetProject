@@ -8,3 +8,12 @@ D:\Projects\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.
 D:\Projects\Calculator\Calculator\obj\Debug\Calculator.exe
 D:\Projects\Calculator\Calculator\obj\Debug\Calculator.pdb
 D:\Projects\Calculator\Calculator\obj\Debug\Calculator.Calculator.resources
+D:\DotNetProject\Calculator\bin\Debug\Calculator.exe.config
+D:\DotNetProject\Calculator\bin\Debug\Calculator.exe
+D:\DotNetProject\Calculator\bin\Debug\Calculator.pdb
+D:\DotNetProject\Calculator\obj\Debug\Calculator.Calculator.resources
+D:\DotNetProject\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+D:\DotNetProject\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+D:\DotNetProject\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+D:\DotNetProject\Calculator\obj\Debug\Calculator.exe
+D:\DotNetProject\Calculator\obj\Debug\Calculator.pdb
