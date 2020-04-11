@@ -13,6 +13,13 @@ pipeline {
 				  }
 			}
 		}
+		stage ("--Deploy---") {
+			steps {
+			       bat "copy ./Debug/Calculator.exe D:/"
+				  }
+			}
+		}
 		
 	}
 }
+
