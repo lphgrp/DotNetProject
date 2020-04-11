@@ -15,7 +15,7 @@ pipeline {
 		}
 		stage ("--Deploy---") {
 			steps {
-			       bat "copy \\Debug\\Calculator.exe D:\\"
+			       bat "copy D:\\InstallSoft\\Jenkins\workspace\\DotNetPipeline\\Calculator\\bin\\Debug\\Calculator.exe D:\\"
 				  }
 			}
 		}
