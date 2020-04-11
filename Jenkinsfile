@@ -7,14 +7,14 @@ pipeline {
 		stage ("--Code_Scan---") {
 			steps {
 			      withSonarQubeEnv('Sonar_Server') {
-				  bat "D:\\InstallSoft\\SonarQube.Scanner.MSBuild.exe begin /k:Calculator"
+				  bat "D:\\InstallSoft\\SonarScanner.MSBuild.exe begin /k:Calculator"
 				  }
 			}
 		}
 		stage ("--Clean Project and Build---") {
 			steps {
-				bat "MSBuild.exe /t:Rebuild"
-			}
+				bat "MSBuild.exe /p:Configuration=Debug /p:Platform=\"Any CPU\" /t:Rebuild"
+				}
 		}
 	}
 }
