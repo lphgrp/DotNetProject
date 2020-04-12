@@ -25,11 +25,11 @@ namespace Calculator
             result.Text = "0";
         }
 
-        private void button3_Click(object sender, EventArgs e)
+       /* private void button3_Click(object sender, EventArgs e)
         {
             result.Text = "0";
             value = 0;
-        }
+        }Lalit*/
         private void button_Click(object sender, EventArgs e)
         {
             if ((result.Text == "0") || (operation_pressed))
